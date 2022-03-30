@@ -16,11 +16,3 @@
 	* [Put] Update entity
 	* [Put] Make active entity inactive
 	* [Delete] Remove entity from database
-
-- For Example 
-
-	* Cars
-	![Cars](https://github.com/mesuterenoglu/CarApiProject/blob/master/Postman/Cars.webm)
-	* Buses
-
-	* Boats
