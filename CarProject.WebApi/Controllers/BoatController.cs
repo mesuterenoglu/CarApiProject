@@ -143,8 +143,8 @@ namespace CarProject.WebApi.Controllers
             }
         }
 
-        [HttpGet("getbycolor/{color}")]
-        public async Task<IActionResult> GetbyColor(string color)
+        [HttpGet("getbycolor")]
+        public async Task<IActionResult> GetbyColor([FromQuery] string color)
         {
             try
             {

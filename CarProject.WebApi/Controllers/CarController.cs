@@ -20,7 +20,7 @@ namespace CarProject.WebApi.Controllers
         }
 
         [HttpPost("add")]
-        public async Task<IActionResult> AddCar([FromBody] AddCarModel model)
+        public async Task<IActionResult> Add([FromBody] AddCarModel model)
         {
             try
             {
@@ -174,8 +174,8 @@ namespace CarProject.WebApi.Controllers
             }
         }
 
-        [HttpGet("getbycolor/{color}")]
-        public async Task<IActionResult> GetbyColor(string color)
+        [HttpGet("getbycolor")]
+        public async Task<IActionResult> GetbyColor([FromQuery]string color)
         {
             try
             {
